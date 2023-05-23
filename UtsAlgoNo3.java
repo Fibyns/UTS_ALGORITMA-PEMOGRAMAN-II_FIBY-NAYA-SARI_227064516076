@@ -10,7 +10,7 @@ public static void main(String[] args) {
     System.out.println("## COLDPLAY MUSIC of SPHERES ##"); 
     System.out.println("========== WORLD TOUR ==========");
     System.out.println("GELORA BUNG KARNO STADIUM JAKARTA");
-    
+    System.out.println("Kategori tiket yang tersedia : ");
     System.out.println("1. Category 1 (Rp5.000.000)");
     System.out.println("2. Category 2 (Rp4.000.000)");
     System.out.println("3. Category 3 (Rp3.250.000)");
@@ -36,7 +36,6 @@ public static void main(String[] args) {
             harga = 2500000*jumlah;
             break;
     }
-    
     System.out.println("======================================");
     System.out.println("\t \n INVOICE PEMBELIAN \n");
     System.out.println("======================================");
@@ -49,6 +48,5 @@ public static void main(String[] args) {
     kembalian = bayar - harga;
     System.out.println("kembalian       : Rp " + kembalian);
     System.out.println("======================================");
-    }
-    
+    }   
 }
